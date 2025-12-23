@@ -1,0 +1,15 @@
+version: "1.0"
+projectName: MCSPProdProject
+runtimes:
+- runtimeAlias: FlowMCSPProd
+  assets:
+  - name: fld_123538834_stage00.projects.flf022028786d24f459daae0f12d95a191.integrations:testwmpkg
+    type: flow
+    stepId: /0
+    reference: fld_123538834_stage00.projects.flf022028786d24f459daae0f12d95a191.WmPackageServiceProvider.project.mcspprod.integrations:test1
+- runtimeAlias: SIQAERT2212
+  assets:
+  - name: fld_123538834_stage00.projects.flf022028786d24f459daae0f12d95a191.integrations:testwmpkg
+    type: flow
+    stepId: /1
+    reference: fld_123538834_stage00.projects.flf022028786d24f459daae0f12d95a191.WmPackageServiceProvider.project.mcspprod.integrations:test1
